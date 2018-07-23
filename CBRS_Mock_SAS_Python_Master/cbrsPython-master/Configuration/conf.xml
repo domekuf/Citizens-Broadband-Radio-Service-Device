@@ -5,8 +5,8 @@
 	<hostIp>127.0.0.1</hostIp>
 	<port>5000</port>
 	<heartbeatLimit>30</heartbeatLimit>
-	<pemFilePath>certificates/sas_certificate.pem</pemFilePath>
-	<keyFilePath>certificates/sas_private_key.key</keyFilePath>
-	<caCerts>certificates/rootCA_certificate.pem</caCerts>
+	<pemFilePath>certificates/sasharnesscert.pem</pemFilePath>
+	<keyFilePath>certificates/sasharnesspriv.key</keyFilePath>
+	<caCerts>certificates/cbrs_ca1.pem</caCerts>
 	<cpiCert>certificates/cpi_certificate.pem</cpiCert>
 </cbrsParams>
